@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+
+.about {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.about__title {
+    color:#E87722;
+    font-family: 'Oswald', sans-serif;
+    font-size:2.5rem;
+    font-weight: 600;
+    margin:10px 0;
+}
+
+.about__card {
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items:center;
+    max-width: 1140px;
+    background-color: #026ea4ae;
+    border-radius: 5px;
+}
+.about__card__img {
+    width: 100%;
+    height:100%;
+    margin: 20px;
+}
+.about__card__img img {
+    width: 500px;
+    height: 500px;
+    background-size: contain;
+    border-radius:5px;
+}
+
+.about__card__content {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.content__heading {
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    font-size:2.5rem;
+    font-weight: bold;
+    margin:10px 0;
+}
+.content__body {
+    color: #fff;
+    margin-bottom:10px;
+    line-height: 1.8;
+}
+.content__tail {
+    width:100%;
+    height:100%;
+    margin-bottom: 10px;
+}
+.content__tail button {
+    outline: none;
+    border: none;
+    padding:10px 15px;
+    background-color: #f79346;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    font-weight:bolder;
+    transition: all .3s ease-in-out;
+    border-radius: 5px;
+}
+.content__tail button:hover {
+    background-color: #fff;
+    color: #026ea4;
+}

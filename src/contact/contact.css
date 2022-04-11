@@ -1,0 +1,43 @@
+.contact {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    width: 60%;
+    margin: 0 auto;
+}
+.contact__title {
+    color:#E87722;
+    font-family: 'Oswald', sans-serif;
+    font-size:2.5rem;
+    font-weight: 600;
+    margin:10px 0;
+}
+.contact__form {
+    width: 100%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+.contact__form .form-group {
+    width: 100%;
+}
+.form-control {
+    min-width:100%;
+}
+.contact__btn {
+    margin-top: 10px;
+    background-color: #E87722;
+    color: #fff;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    padding:7px 0;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+.contact__btn:hover {
+    background-color: #026ea4;
+    color: #fff;
+}
